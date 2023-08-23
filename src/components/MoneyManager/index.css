@@ -1,0 +1,150 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-left: 300px;
+  padding-bottom: 30px;
+}
+
+.inner-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.head {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.para {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.span-para {
+  color: #0b69ff;
+}
+
+.form-bg-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 300px;
+}
+
+.transaction-head {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.label-input {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.label-input-el {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 220px;
+  height: 24px;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+}
+
+.select-class {
+  margin-bottom: 8px;
+  width: 220px;
+  height: 24px;
+  border: 1px solid #cbd5e1;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.history-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 340px;
+}
+
+.history-head {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  width: 300px;
+}
+
+.li-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.title {
+  margin: 4px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+}
+
+.amount {
+  margin: 4px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+}
+
+.type {
+  margin: 4px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+}

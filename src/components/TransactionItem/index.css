@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.transitem-con {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .transitem-con {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.text {
+  font-family: 'Roboto';
+  color: #334155;
+  margin: 10px;
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  background: none;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}

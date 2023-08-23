@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.money-details-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.balance-con {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.balance-img {
+  width: 60px;
+  height: 60px;
+}
+
+.income-con {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.income-img {
+  width: 60px;
+  height: 60px;
+}
+
+.expenses-con {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.expenses-img {
+  width: 60px;
+  height: 60px;
+}
