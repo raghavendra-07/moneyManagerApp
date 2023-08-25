@@ -57,7 +57,7 @@ class MoneyManager extends Component {
 
     transactionList.forEach(eachTransaction => {
       if (eachTransaction.type === transactionTypeOptions[1].displayText) {
-        expensesAmount += eachTransaction.amount
+        expensesAmount += parseInt(eachTransaction.amount)
       }
     })
     return expensesAmount
@@ -70,7 +70,7 @@ class MoneyManager extends Component {
 
     transactionList.forEach(eachTransaction => {
       if (eachTransaction.type === transactionTypeOptions[0].displayText) {
-        incomeAmount += eachTransaction.amount
+        incomeAmount += parseInt(eachTransaction.amount)
       }
     })
     return incomeAmount
@@ -84,9 +84,9 @@ class MoneyManager extends Component {
 
     transactionList.forEach(eachTransaction => {
       if (eachTransaction.type === transactionTypeOptions[0].displayText) {
-        incomeAmount += eachTransaction.amount
+        incomeAmount += parseInt(eachTransaction.amount)
       } else {
-        expensesAmount += eachTransaction.amount
+        expensesAmount += parseInt(eachTransaction.amount)
       }
     })
 
